@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.csc211final.HelloController">
+   <children>
+      <Button fx:id="btnStart" layoutX="246.0" layoutY="251.0" mnemonicParsing="false" onAction="#onStartButtonClick" prefHeight="37.0" prefWidth="109.0" text="Start Simulator" />
+      <Rectangle fx:id="RectangleElevator2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="385.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+      <Rectangle fx:id="RectangleElevator1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="108.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+      <Label layoutX="18.0" layoutY="269.0" prefHeight="17.0" prefWidth="109.0" text="Track:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIteration1" layoutX="22.0" layoutY="306.0" prefHeight="18.0" prefWidth="58.0" text=" Pass 1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="IterationLabel2" layoutX="141.0" layoutY="333.0" text="Something happened here" />
+      <Label fx:id="lblIteration2" layoutX="22.0" layoutY="333.0" prefHeight="18.0" prefWidth="58.0" text="Pass 2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIteration3" layoutX="22.0" layoutY="361.0" prefHeight="18.0" prefWidth="58.0" text="Pass 3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="IterationLabel3" layoutX="141.0" layoutY="361.0" text="Something happened here" />
+      <Label fx:id="IterationLabel1" layoutX="141.0" layoutY="307.0" text="Something happened here" />
+   </children>
+</Pane>
